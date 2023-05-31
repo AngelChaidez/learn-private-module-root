@@ -19,9 +19,10 @@ module "s3-webapp" {
   prefix = var.prefix
   version = "1.0.0"
 }
-
+/*
 credentials "app.terraform.io" {
   # valid user API token
   token = "DYhVxxZ7uIuLzQ.atlasv1.yHLIpPZqafnKQtDKYkmxz0twGV5xiZ0svbSV5g6xWUVolNNetv1Izrl6SbTHqxynzGk"
 }
 
+*/
