@@ -6,11 +6,11 @@
     }
   }
 }
-
+*/
 provider "aws" {
   region = var.region
 }
-*/
+
 module "s3-webapp" {
   source  = "app.terraform.io/cloudgeeks/s3-webapp/aws"
   name   = var.name
